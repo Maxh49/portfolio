@@ -1,6 +1,6 @@
 # portfolio
 
-## Le dossier contient 2 fichiers .html, 2 fichiers .css est un dossier images:  
+## Le dossier contient 2 fichiers .html, 2 fichiers .css et un dossier images:  
 
 - portfolio.html qui est la page d'accueil du site.
 - recommandations.html qui est une page secondaire.  

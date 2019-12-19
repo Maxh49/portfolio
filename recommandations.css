@@ -17,21 +17,9 @@ body{
 	div.left_block{
 		background-color: #302729;
 		width: 300px;
-		height: 1000px;
+		height: 800px;
 		position:fixed;
 		}
-
-	/* button */
-	div.button{
-		color: #FFF;
-		text-transform: uppercase;
-		border: 1px solid;
-		border-color: #FFF;
-		text-align: center;
-		margin-left: 20px;
-		margin-top: 30px;
-		margin-right: 20px;
-	}
 
 	/* fleche retour */
 	img.fleche {
@@ -175,3 +163,114 @@ body{
 .right_block section p:first-child {
     margin-top: 0;
 }
+
+/* responsive */
+
+@media only screen and (max-width: 1450px) {
+
+.right_block a {
+    width:  900px;
+	}
+}
+
+@media only screen and (max-width: 1350px) {
+
+.right_block a {
+    width:  800px;
+	}
+}
+
+@media only screen and (max-width: 1250px) {
+
+.right_block a {
+    width:  700px;
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+
+.right_block a {
+    width:  600px;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+
+.right_block a {
+    width:  500px;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+
+.right_block a {
+    width:  400px;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+
+.right_block a {
+    width:  300px;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+
+.right_block a {
+    width:  200px;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.right_block aside {
+    width: 250px;
+    left: 20px;
+	}
+}
+
+@media only screen and (max-width: 560px) {
+
+	div.left_block{
+	width: 200px;
+	}
+
+	div.right_block{
+	margin-left: 200px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+
+	div.left_block{
+	width: 150px;
+	}
+
+	div.right_block{
+	margin-left: 140px;
+	}
+
+	div.left_block span.txt_left{
+	font-size: 12px;
+	}
+
+	img.fleche {
+  		margin-top: 20px;
+  		margin-left: 15px;
+  	}
+
+	div.left{
+		margin-left: 15px;
+		margin-top: 70px;
+	}
+
+	img.github_logo{
+		margin-left: 15px;
+		margin-top:  40px;
+	}
+
+	img.linkedin_logo{
+		margin-left: 25px;
+	}
+}
+
